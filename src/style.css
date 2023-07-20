@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(28, 39, 54);
+}
+
+.nav {
+  /* below makes nav bar sit on top of carousel */
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  max-width: 100%;
+  padding-right: 16px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.aboutSection {
+  position: absolute;
+  z-index: 10;
+  max-width: 100%;
+  width: 30%;
+  margin-left: 80px;
+  margin-top: 18px;
+  padding: 15px;
+  padding-top: 20px;
+  border: 1px solid white;
+  color: white;
+  /* background-color: rgba(255, 255, 255, 0.75); */
+  font-family: "Courier New", Courier, monospace;
+  font-size: 10pt;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  letter-spacing: 9pt;
+}
