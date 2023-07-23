@@ -3,169 +3,211 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>María Luisa Park</title>
-    <link rel="stylesheet" href="src/styles.css" />
+    <title>Maria Luisa Park</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="src/styles.css" />
+    <!-- special font -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,500;1,600&display=swap"
       rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Arimo&family=Playfair+Display:ital,wght@0,400;0,500;1,500;1,600&display=swap"
-      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
     />
   </head>
   <body>
+    <div class="mainImage">
+      <!-- nav bar -->
+      <ul class="nav justify-content-end">
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            DISCOVER
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="lahemaa-page.html"
+                >Lahemaa National Park</a
+              >
+            </li>
+            <li><a class="dropdown-item" href="#">Gelmerbahn</a></li>
+            <li><a class="dropdown-item" href="#">María Luisa Park</a></li>
+            <li><a class="dropdown-item" href="#">Chios Island</a></li>
+            <li><a class="dropdown-item" href="#">Lake Braies</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <!-- main image: crop ratio 3:1 -->
+      <img
+        src="pic\lahemaa\lahemaa03-crop.jpg"
+        class="d-block w-100"
+        alt="Vana-Jüri boulder stones"
+      />
+    </div>
+
+    <div class="heading">
+      <h4>MARIA LUISA PARK</h4>
+    </div>
+
+    <!-- boxed intro text section -->
+    <div class="introText">
+      <p>
+        Located on the northern coast of Estonia, Lahemaa is perfect for a
+        hiking trip and nature watching. Here you will find stony and sandy
+        seashores, picturesque bogs, pine and cliff forests, rivers that cut
+        into the limestone cliff as well as erratic rocks left over from the
+        last Ice Age.
+      </p>
+    </div>
+
+    <!-- main text section -->
+    <div class="container text-justify">
+      <div class="row">
+        <!-- responsive columns: small screen 1 column, mid screen and up two columns -->
+        <div class="col-xs-12 col-md-6">
+          <p class="bodyText">
+            Lahemaa National Park is the oldest and also the largest national
+            park in Estonia, with an area of 74,784 ha, of which land is 47,910
+            ha and the sea is 26,874 ha. The main value of the Lahemaa is its
+            great landscape, natural and cultural diversity. This part of the
+            coastal area is rich in peninsulas and bays, the largest being
+            Juminda, Pärispea, Käsmu and Vergi peninsulas. The larger islands
+            near the coast are Mohni, Hara, Haldi, Alvi, Saartneem and Kasispea.
+            Typically, the landscape of Lahemaa has numerous large boulders and
+            exceptionally dense piles of stones, which make the national park
+            unique.
+          </p>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <p class="bodyText">
+            About 120 km of study and hiking trails are built in Lahemaa
+            National Park, reflecting the natural diversity, geological
+            peculiarities and the cultural heritage of Lahemaa. Individual
+            objects of nature are dominated by boulders and rocky fields, which
+            can be found abundantly in all four Lahemaa peninsulas and, to a
+            lesser extent, inland. To make it comfortable for the hikers, there
+            are several camping sites and observation towers from which one can
+            view birds or simply enjoy the sea view.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <br />
+
+    <!-- small image gallery & directions -->
+    <div class="imgDirections">
+      <div class="container">
+        <div class="row">
+          <!-- responsive columns: small screen 1 column, mid screen and up three columns -->
+          <div class="col-xs-12 col-md-4 imgStyle">
+            <img
+              src="pic\lahemaa\lahemaa07.JPG"
+              class="img-fluid"
+              alt="Viru bog"
+            />
+          </div>
+          <div class="col-xs-12 col-md-4 imgStyle">
+            <img
+              src="pic\lahemaa\lahemaa06.JPG"
+              class="img-fluid"
+              alt="Viru bog"
+            />
+          </div>
+          <div class="col-xs-12 col-md-4 directionBox">
+            <p><u>Coordinates:</u> <br />59°30'46.1"N 25°57'18.5"E</p>
+            <p>
+              <u>How to get there:</u> <br />By car, the visitor centre in
+              Palmse village is 37 km from Rakvere and 80 km from the capital
+              Tallinn. Regardless of the direction of travel, you need to follow
+              the Tallinn-Narva highway and turn off towards Võsu when
+              approaching Viitna. From there it is 7 km to Palmse.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br /><br />
+
+    <!-- list of tips & image -->
+    <div class="container">
+      <div class="row">
+        <!-- responsive columns: small screen 1 column, mid screen and up two columns -->
+        <div class="col-xs-12 col-md-6 bodyText">
+          <h5>Tips & friendly reminders</h5>
+          <ul>
+            <li>
+              In the visitor centre, you can receive information about Lahemaa
+              National Park hiking trails, camping sites, campfires,
+              sightseeing, accommodation etc.
+            </li>
+            <li>
+              Use bicycles on roads and paths, use and park motor vehicles
+              (including terrain vehicles and snowmobiles) only on prescribed
+              roads and parking lots.
+            </li>
+            <li>
+              You may always pick wild berries, mushrooms and other natural
+              products which are not protected, given that you are allowed to be
+              in the picking spot. On a private land, if it is fenced and
+              marked, you need a permission of the possessor of the land to pick
+              natural products.
+            </li>
+            <li>
+              Set up a tent and make a fire only in locations intended and
+              marked for such purposes; if you leave the campfire site, put the
+              fire out. If the forests have been declared flammable, making an
+              open fire is always prohibited, also on a fire base.
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <img
+            src="pic\lahemaa\lahemaa05.JPG"
+            class="img-fluid"
+            alt="Altja village"
+          />
+        </div>
+      </div>
+    </div>
+
+    <br /><br />
+
+    <footer>
+      <div class="container text-justify">
+        <div class="row">
+          <div class="col-6">
+            <p>
+              Authors: <br />
+              Derya, Dunja, Joanna, Marynara, Nevena & Teresa
+            </p>
+          </div>
+          <div class="col-3">
+            <p>
+              Powered by <br />
+              CODE FIRST GIRLS ♥
+            </p>
+          </div>
+          <div class="col-3">
+            <p><a href="index.html">Home</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
-
-    <ul class="nav justify-content-end">
-      <li class="nav-item dropdown">
-        <a
-          class="nav-link droppdown-toggle"
-          href="#"
-          role="button"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          DISCOVER
-        </a>
-        <ul class="dropdown-menu" style="">
-          <li><a class="dropdown-item" href="#">Lahemaa National Park</a></li>
-          <li><a class="dropdown-item" href="#">Gelmerbahn</a></li>
-          <li><a class="dropdown-item" href="#">Chios Island</a></li>
-          <li><a class="dropdown-item" href="#">María Luisa Park</a></li>
-          <li><a class="dropdown-item" href="#">Lake Braies</a></li>
-        </ul>
-      </li>
-    </ul>
-
-    <div class="col-md-12">
-      <img
-        src="images/marialuisaparkimg/img1.jpg"
-        class="img-fluid"
-        width="100"
-      />
-      <h3 class="carousel-caption">
-        María Luisa Park: Where Tradition meets Relaxation
-      </h3>
-    </div>
-
-    <div class="about">
-      <p class="subhead">
-        With 34 hectares of size, it is an ideal corner for local people and
-        guests to rest in the shade of a woods, stroll with loved ones on the
-        trails or sit and appreciate the trilling of fowls, the Garden of the
-        Lions or beautiful frog fountain.The park is an oasis of peace in
-        Seville and provides some cool relief on hot days, thanks to the shady
-        footpaths, fountains and the expanse of beautiful Mediterranean trees
-        and colourful flowers. For many Sevillians, the park is an ideal place
-        for a picnic, for a romantic walk or for cycling (a fun activity is to
-        rent a four-wheeler bike in the park).
-      </p>
-      <p>
-        The best : You can visit at same time Plaza de España and Parque de
-        María Luisa, Seville. The squares of Spain and America, built for the
-        Ibero-American Exhibition of 1929, are totally integrated into the Maria
-        Luisa Park and constitute its main attractions. Maria Luisa Park is the
-        most famous park in the city and most visited was opened to the public
-        for first tieme on April 18, 1914.. The park is one of the fundamental
-        lungs of the city of Seville and the primary urban park.The Maria Luisa
-        Park was formerly private gardens of the Palace of San Telmo, and were
-        donated in 1893 by the Infanta Maria Luisa Fernanda de Borbon (Duchess
-        of Montpensier) to the city.The Parks ´s gardens have been designed by
-        the French specialist Jean-Claude Nicolas Forestier, guardian of the
-        Boulogne woodland in Paris, who gave it a sentimental touch.
-      </p>
-    </div>
-    <div class="gallery">
-      <div class="pictures">
-        <img class="img" src="images/marialuisaparkimg/img2.jpg" alt="park2" />
-        <img class="img" src="images/marialuisaparkimg/img3.jpg" alt="park3" />
-        <img class="img" src="images/marialuisaparkimg/img4.jpg" alt="park4" />
-      </div>
-      <div class="text">
-        <ul>
-          <li>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-geo-alt"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"
-              />
-              <path
-                d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
-              /></svg
-            >&nbsp; <span>Coordinates:</span><br />
-            37° 22′ 29.36″ N, 5° 59′ 18.86″ W
-          </li>
-          <span></span>
-          <li>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-globe-americas"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0ZM2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484-.08.08-.162.158-.242.234-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z"
-              /></svg
-            >&nbsp; <span>How to get there:</span> <br />
-            You can take the Metro to Prado de San Sebastian, then walk through
-            that park to the entrance. Alternatively, it's a short walk from the
-            centre, from Puerta de Jerez, down Calle San Fernando past the old
-            tobacco factory. Buses which stop near the park: 1, 3, 6, 22, 25, 30
-            31, 34, 37, 38.
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="specials">
-      <p>
-        The park is free to visit and is open every day from 8:00 to 22:00. You
-        can buy bird food for the white doves, which will come and perch on your
-        head and arms - great fun for children. At the weekend you can hire
-        go-karts in Plaza de America too. Themed tours of the park are
-        available, with night-time versions offered in the summer - such as A
-        Night at the Exposicion 1929. The Ayuntamiento often organises events in
-        the park - music, poetry and drama.
-      </p>
-    </div>
-
-    <div class="footer">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="16"
-        height="16"
-        fill="white"
-        class="bi bi-heart-fill"
-        viewBox="0 0 16 16"
-      >
-        <path
-          fill-rule="evenodd"
-          d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"
-        />
-      </svg>
-    </div>
   </body>
 </html>
